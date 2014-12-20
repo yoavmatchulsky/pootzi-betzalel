@@ -1,0 +1,71 @@
+/* 
+ * Open Sans Hebrew (Hebrew) http://www.google.com/fonts/earlyaccess
+ * CSS is at https://fonts.googleapis.com/earlyaccess/opensanshebrew.css
+ */
+@font-face {
+  font-family: 'Open Sans Hebrew';
+  font-style: normal;
+  font-weight: 300;
+  src: url(../fonts/OpenSansHebrew-Light.eot);
+  src: url(../fonts/OpenSansHebrew-Light.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/OpenSansHebrew-Light.woff2) format('woff2'),
+       url(../fonts/OpenSansHebrew-Light.woff) format('woff'),
+       url(../fonts/OpenSansHebrew-Light.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans Hebrew';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/OpenSansHebrew-Regular.eot);
+  src: url(../fonts/OpenSansHebrew-Regular.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/OpenSansHebrew-Regular.woff2) format('woff2'),
+       url(../fonts/OpenSansHebrew-Regular.woff) format('woff'),
+       url(../fonts/OpenSansHebrew-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans Hebrew';
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/OpenSansHebrew-Bold.eot);
+  src: url(../fonts/OpenSansHebrew-Bold.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/OpenSansHebrew-Bold.woff2) format('woff2'),
+       url(../fonts/OpenSansHebrew-Bold.woff) format('woff'),
+       url(../fonts/OpenSansHebrew-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans Hebrew';
+  font-style: normal;
+  font-weight: 800;
+  src: url(../fonts/OpenSansHebrew-ExtraBold.eot);
+  src: url(../fonts/OpenSansHebrew-ExtraBold.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/OpenSansHebrew-ExtraBold.woff2) format('woff2'),
+       url(../fonts/OpenSansHebrew-ExtraBold.woff) format('woff'),
+       url(../fonts/OpenSansHebrew-ExtraBold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Danidin Bold';
+  src: url(../fonts/Danidin-Bold.eot);
+  src: url(../fonts/Danidin-Bold.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/Danidin-Bold.woff2) format('woff2'),
+       url(../fonts/Danidin-Bold.woff) format('woff'),
+       url(../fonts/Danidin-Bold.ttf) format('truetype');
+}
+
+/*
+@mixin rtl-font {
+  font-family: 'Open Sans Hebrew', sans-serif;
+}
+
+.font-open-sans, .font-open-sans-hebrew, .open-sans-hebrew {
+  @include rtl-font;
+}
+
+.open-sans {
+  @include rtl-font;
+}
+
+body {
+  @include rtl-font;
+}
+*/

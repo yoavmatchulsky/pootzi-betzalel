@@ -1,0 +1,340 @@
+body {
+  font-family: 'Open Sans Hebrew';
+  font-weight: normal;
+}
+
+h1, h2, h3 {
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 36px;
+  margin-top: 0.5em;
+  margin-bottom: 0.75em;
+}
+
+.page-container {
+  width: auto;
+  margin: 0 auto;
+  text-align: center;
+  height: 100%;
+  vertical-align: top;
+  margin-bottom: 200px;
+}
+
+.page-content {
+  position: relative;
+  width: 100%;
+}
+
+#page-home {
+  /*background: url(../img/background-home.jpg) no-repeat center center;  */
+  /* height: 1000px; */
+}
+
+#page-home h1 {
+  padding-top: 180px;
+}
+
+.video-container {
+  /*z-index: -1; */
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  overflow: hidden;
+  min-width: 1045px;
+  height: 800px;
+  /*height: 1000px;*/
+}
+
+.video-container video {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  /*height: 1000px;*/
+  right: 0;
+  left: 0;
+}
+
+.video-container .video-controls {
+  position: absolute;
+  bottom: 50px;
+  right: 100px;
+  width: 50px;
+  height: 50px;
+}
+
+.video-container .video-controls span {
+  display: none;
+}
+
+.video-container .video-controls .shown {
+  display: block;
+}  
+
+.video-container .video-controls span img {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+}
+
+#page-people {
+  background: white;
+}
+
+#page-people .page-content {
+  height: inherit;
+}
+
+.page-content {
+  width: 615px;
+  margin: 0 auto;
+}
+
+.grid {
+  width: 100%;
+}
+
+.grid:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.grid .col {
+  text-align: left;
+  float: left;
+  display: inline-block;
+  position: relative;
+  margin: 0 0 20px;
+  padding-right: 20px;
+}
+
+.grid .col.more {
+  direction: rtl;
+  vertical-align: bottom;
+  text-align: right;
+  padding-top: 165px;
+}
+
+.grid .col.more span {
+}
+
+.grid .col-1-3 { width: 33.33%; }
+.grid .col-2-3 { width: 66.66%; }
+[class*='col-']:last-of-type {
+  padding-right: 0;
+}
+
+.grid .col .text {
+  opacity: 0;
+  display: block;
+  color: black;
+  text-decoration: none;
+  background: white;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 30px;
+  text-align: center;
+  vertical-align: middle;
+  direction: rtl;
+  font-family: 'Danidin Bold';
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+  padding: 60px 20px 0 0;
+}
+
+.grid .col:hover .text {
+  opacity: 0.8;
+  cursor: pointer;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+}
+
+#page-person {
+  background: white;
+  padding-top: 80px;
+}
+
+#page-person .text {
+  font-family: 'Open Sans Hebrew';
+  padding-left: 300px;
+  /*width: 614px; */
+  /* margin: 20px 0; */
+}
+
+#page-person p {
+  font-size: 16px;
+  margin-bottom: 0;
+  direction: rtl;
+  text-align: right;
+}
+
+#page-person p strong {
+  font-family: 'Open Sans Hebrew';
+  font-size: 16px;
+}
+
+#page-person .page-content {
+  width: 622px;
+}
+
+#page-saving {
+  color: white;
+  font-family: 'Open Sans Hebrew';
+  background: url(../img/background-saving.jpg) no-repeat center center;
+  background-size: cover;
+  margin-bottom: 0;
+  /*max-width: 100%;*/
+}
+
+#page-saving .page-content {
+  text-align: right;
+  direction: rtl;
+  width: 750px;
+  height: inherit;
+  margin-bottom: 160px;
+}
+
+#page-saving h2 {
+  font-size: 72px;
+  /*padding: 1em 0 0;*/
+  font-weight: normal;
+  font-family: 'Danidin Bold';
+  padding-top: 0.5em;
+  margin-bottom: 0.45em;
+}
+
+p {
+  font-weight: normal;
+  line-height: 1.4;
+  margin-bottom: 0.5em;
+  text-align: justify;
+  font-size: 18px;
+}
+
+p strong {
+  font-family: 'Danidin Bold';
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.form-wrapper {
+  text-align: right;
+  margin-top: 40px;
+}
+
+.contact-form {
+  width: 500px;
+  padding: 20px 0 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+table {
+  width: 500px;
+  border: 0;
+  direction: rtl;
+}
+
+table tr {
+  border: 0;
+}
+
+table tr td {
+  border: 0;
+  text-align: right;
+  color: white;
+  width: 100%;
+  padding: 10px 0;
+}
+
+table tr td.title {
+  width: 200px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0 0 0 20px;
+}
+
+table tr td input {
+  border: 1px solid black;
+  border-radius: 4px;
+  width: 97%;
+  padding: 4px;
+  display: inline-block;
+}
+
+table tr td.actions {
+  text-align: left;
+  padding-left: 13px;
+}
+
+table tr td.actions button {
+  font-size: 16px;
+  font-family: 'Open Sans Hebrew';
+  border: 1px solid black;
+  background: white;
+  border-radius: 4px;
+  padding: 4px 14px;
+  font-weight: bold;
+}
+
+.jcarousel ul {
+  width: 1866px;
+}
+
+.jcarousel ul li {
+  width: 622px;
+}
+
+.jcarousel-wrapper {
+  position: relative;
+}
+
+.jcarousel-wrapper .jcarousel-button {
+  position: absolute;
+  top: 0;
+  left: -100px;
+  height: 282px;
+  line-height: 282px;
+  width: 100px;
+  background: transparent;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.jcarousel-wrapper .jcarousel-button img {
+  vertical-align: middle;
+}
+
+.jcarousel-wrapper .jcarousel-button.jcarousel-prev {
+  left: auto;
+  right: -100px;
+  /*-webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+  */
+}
+
+.contact-form-wrapper .form-wrapper {
+  margin-top: 0;
+}
+
+.contact-form-wrapper .form-wrapper form {
+  margin-right: 0;
+}
+
+#page-person .contact-form-wrapper p {
+  text-align: right;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.contact-form-wrapper .form-wrapper td.title {
+  color: black;
+}
